@@ -18,7 +18,7 @@ Data Preprocessing: Extracting meaningful features from text is crucial for accu
 
 **BERT with Multiple Fully Connected Layers:** The second model builds upon BERT by adding several fully connected layers to enhance the model’s ability to capture sentiment nuances.
 
-**Custom CNN Model:** The third model creates a custom tokenizer using the NLTK library and implements a three-way Convolutional Neural Network (CNN). This model processes text using multiple kernels, combining their outputs into a fully connected layer for sentiment prediction.
+**CNN Model:** The third model creates a custom tokenizer using the NLTK library and implements a three-way Convolutional Neural Network (CNN). This model processes text using multiple kernels, combining their outputs into a fully connected layer for sentiment prediction.
 
 ### Training:
 The training process will utilize a 90-5-5 split for training, validation, and test sets. First two
@@ -26,3 +26,14 @@ models will be trained using Adam optimization, and for third we are using Adade
 classification. While the pretrained model was trained for 10 epochs, each of the other models were
 trained for 66 epochs with a learning rate of 1e-6. Furthermore, the pretrained model was trained
 with a mini-batch size of 5 while the other two models were trained with a batch size of 64.
+
+
+## Instructions for Running the Project
+### Required Packages:
+nltk emoji transformers pyspellchecker tqdm
+
+### Environment Setup
+1. Python Version: Ensure you have Python 3.8 or higher installed.
+2. Install Packages: `!pip install nltk emoji transformers pyspellchecker tqdm`
+3. Data Download: Download the dataset from Kaggle using this [link](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
+4. Launch Jupyter Notebook: Start the Jupyter Notebook server by running: `jupyter notebook`
