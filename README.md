@@ -37,3 +37,5 @@ nltk emoji transformers pyspellchecker tqdm
 2. Install Packages: `!pip install nltk emoji transformers pyspellchecker tqdm`
 3. Data Download: Download the dataset from Kaggle using this [link](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment)
 4. Launch Jupyter Notebook: Start the Jupyter Notebook server by running: `jupyter notebook`
+
+### Trained models: [link](https://drive.google.com/drive/folders/12mGBU2LHBmtr8ql0oZFqapDreNOH0Cff?q=sharedwith:public%20parent:12mGBU2LHBmtr8ql0oZFqapDreNOH0Cff)
